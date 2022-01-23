@@ -1,7 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-
+/* my font */
 .my-font{
     font-family: 'Poppins', sans-serif;
+}
+/* my font colors */
+.primary-color{
+    color: #0A0826;
+}
+.text-color{
+    color: #848199;
 }
 /* button styling here */
 .my-btn{
@@ -15,6 +22,20 @@
     transition-duration: 0.4s;  
 }
 .my-btn:hover {
+    background-image: linear-gradient(180deg, #9da6f5 0%, #3c4166 100%);
+    color: white;
+}
+.secondary-btn{
+    background-color: #ffffff;
+    color: #3F87F5;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 30px;   
+    font-size: 16px; 
+    font-weight: 700;
+    transition-duration: 0.4s; 
+}
+.secondary-btn:hover {
     background-image: linear-gradient(180deg, #9da6f5 0%, #3c4166 100%);
     color: white;
 }
