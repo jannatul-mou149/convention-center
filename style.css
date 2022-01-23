@@ -60,3 +60,12 @@
 .fa{
     color: white;
 }
+/* footer styling here */
+footer{
+    
+    color: white;
+    text-align: center;
+    background-color:#0B0D17;
+    padding: 80px;
+    margin-top: 60px;
+}
