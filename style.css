@@ -13,17 +13,13 @@
 /* button styling here */
 .my-btn{
     background-color: white;
-    color: #3F87F5;
+    color: black;
     border: none;
     border-radius: 5px;
     padding: 5px 26px;   
     font-size: 16px; 
     font-weight: 700;
     transition-duration: 0.4s;  
-}
-.my-btn:hover {
-    background-image: linear-gradient(180deg, #4d7ecc 0%, #466699 100%);
-    color: white;
 }
 .secondary-btn{
     background-color: #fdf2fa;
@@ -50,7 +46,7 @@
     transition-duration: 0.4s;
 }
 .third-btn:hover {
-    background-image: linear-gradient(180deg, #a5aab3 0%, #b1bdd1 100%);
+    background-image: linear-gradient(180deg, #cacfd8 0%, #b1bdd1 100%);
     color: #ffffff;
 }
 /* font awesome icon styling */
