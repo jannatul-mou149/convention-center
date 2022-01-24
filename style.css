@@ -128,4 +128,7 @@ input{
         width:100%;
         height: 500px;
     }
+    .hot-parent{
+        top: 0px;
+    }
 }
