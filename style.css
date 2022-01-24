@@ -102,6 +102,8 @@ a{
 }
 /* hot capsule positioning */
 .hot-parent{
+    transform: scale(110%);
+    top: -20px;
     position: relative;
     transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
 }
